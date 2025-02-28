@@ -115,3 +115,9 @@ button:hover {
     margin-top: 5px;
     padding: 2px;
 }
+
+#contenedor_comentarios {
+    display: flex;
+    flex-direction: column;
+    
+}
