@@ -38,28 +38,9 @@ button:hover {
     background-color: var(--azul-hangul);
 }
 
-header {
-    background-color: var(--rosa-suave);
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 80px;
-    padding: 5px;
-}
-
 #content {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
-}
-
-.container {
-    font-size: 2rem;
-    font-weight: bold;
-    border-right: 3px solid white; /* Simula el cursor */
-    padding-right: 5px;
-    white-space: nowrap;
-    overflow: hidden;
 }
