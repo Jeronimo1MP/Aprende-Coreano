@@ -34,14 +34,6 @@ header {
 
 footer {
     background-color: var(--verde-pastel);
-    border-top: 1px solid var(--azul-hangul);
     transition: background-color 0.5s ease;
-}
-
-footer:hover {
-    background-color: var(--azul-hangul);
-}
-
-footer:hover body {
-    background-color: #005BAC;
+    margin-bottom: 2px;
 }

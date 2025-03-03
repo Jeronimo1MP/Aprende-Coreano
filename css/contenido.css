@@ -94,5 +94,10 @@ button:hover {
 #contenedor_comentarios {
     display: flex;
     flex-direction: column;
-    
+}
+
+#boton_form {
+    background-color: var(--rojo-corea);
+    border: none;
+    cursor: pointer;
 }
