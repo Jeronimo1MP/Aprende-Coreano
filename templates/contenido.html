@@ -17,7 +17,7 @@
     <header>
         <h1 class="container" id="typing"></h1>
     </header>
-<section id="alfabeto">
+<section style="padding: 5px;" id="alfabeto">
     <div class="prueva">
     <h1>Alfabeto Coreano (Hangul)</h1>
         <div class="secimg">
@@ -36,7 +36,7 @@
         </div>
 </section>
 
-<section id="trazos">
+<section style="padding: 5px;" id="trazos">
     <h2>Trazos del Hangul</h2>
     <h2>Reglas de los Trazos del Hangul</h2>
     <p>Las letras en <strong>Hangul</strong> (el alfabeto coreano) se escriben siguiendo reglas específicas de trazos. Estas reglas aseguran que las letras se escriban de manera coherente y legible. A continuación, te presentamos las principales reglas para escribir los trazos de las letras Hangul:</p>
@@ -94,18 +94,22 @@
         <div id="contenedor_comentarios">
             <form name="contacto" method="POST" data-netlify="true">
                 <div>
-                    <h2>Nombre:</h2>
+                    <h2>Deja tus comentarios:</h2>
+                </div>
+
+                <div>
+                    <h3>Nombre:</h3>
                     <input type="text" id="nombre" name="nombre" required>
                 </div>
 
                 <div>
-                    <h2>Email:</h2>
+                    <h3>Email:</h3>
                     <input type="email" id="email" name="email" required>
                 </div>
 
                 <div>
-                    <h2>Mensaje:</h2>
-                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <h3>Mensaje:</h3>
+                    <textarea style="height: 50px; width: 300px;" id="mensaje" name="mensaje" required></textarea>
                 </div>
 
                 <button id="boton_form" type="submit">Enviar</button>
