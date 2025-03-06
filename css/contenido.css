@@ -11,7 +11,7 @@ body {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
+    background-image: linear-gradient(var(--blanco-puro), var(--gris-suave));
 }
 
 .alfabeto {
@@ -100,4 +100,9 @@ button:hover {
     background-color: var(--rojo-corea);
     border: none;
     cursor: pointer;
+}
+
+#contenedor_comentarios {
+    padding-left: 20px;
+    background-image: radial-gradient(circle, var(--verde-pastel), var(--rosa-suave));
 }

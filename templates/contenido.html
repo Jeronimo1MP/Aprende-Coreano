@@ -26,7 +26,7 @@
 
         <div class="botonContainer">
                 <a href="documentos/Alfabeto_Hangul.pdf" download>
-                    <button>Descargar</button>
+                    <button class="btnDescarga"><img src="../img/descargaicon.svg"></button>
                 </a>
         </div>
     </div>
@@ -59,33 +59,34 @@
 
     <p>Es importante seguir estas reglas para asegurar que la escritura en Hangul sea precisa y legible.</p>
 
-    <div id="ejplvocal">
+    <div id="ejplvocal" class="seccion-trazo">
         <div class="titleimg">
             <p>Ejemplo del correcto trazo de las vocales:</p>
         </div>
         <div class="secimg">
             <img onclick="mostrarPantallaCompleta(this)" class="imgAlfabeto" src="../img/trazos.svg">
             <div class="botonContainer">
-            <a href="documentos/Trazos_de_vocales.pdf" download>
-                <button>Descargar</button>
-            </a>
+                <a href="documentos/Trazos_de_vocales.pdf" download>
+                    <button class="btnDescarga"><img src="../img/descargaicon.svg"></button>
+                </a>
             </div>
         </div>
     </div>
-
-    <div id="ejplconsonante">
+    
+    <div id="ejplconsonante" class="seccion-trazo">
         <div class="titleimg">
             <p>Ejemplo del correcto trazo de las consonantes:</p>
         </div>
         <div class="secimg">
             <img onclick="mostrarPantallaCompleta(this)" class="imgAlfabeto" src="../img/trazos2.svg">
             <div class="botonContainer">
-            <a href="documentos/trazos_de_consonantes.pdf" download>
-                <button>Descargar</button>
-            </a>
+                <a href="documentos/trazos_de_consonantes.pdf" download>
+                    <button class="btnDescarga"><img src="../img/descargaicon.svg"></button>
+                </a>
             </div>
         </div>
     </div>
+    
 </section>
 
 <footer>
@@ -93,17 +94,17 @@
         <div id="contenedor_comentarios">
             <form name="contacto" method="POST" data-netlify="true">
                 <div>
-                    <h1>Nombre:</h1>
+                    <h2>Nombre:</h2>
                     <input type="text" id="nombre" name="nombre" required>
                 </div>
 
                 <div>
-                    <h1>Email:</h1>
+                    <h2>Email:</h2>
                     <input type="email" id="email" name="email" required>
                 </div>
 
                 <div>
-                    <h1>Mensaje:</h1>
+                    <h2>Mensaje:</h2>
                     <textarea id="mensaje" name="mensaje" required></textarea>
                 </div>
 
