@@ -8,6 +8,6 @@ Una aplicación web para encontrar informacion del idioma.
 - JavaScript
 - HTML y CSS
 
-## 💻 Vistar
+## 💻 Visitar
 Entra en esta URL para ver el sitio en la web:
 [Aprende Coreano](https://aprendecoreano.netlify.app/templates/contenido)
